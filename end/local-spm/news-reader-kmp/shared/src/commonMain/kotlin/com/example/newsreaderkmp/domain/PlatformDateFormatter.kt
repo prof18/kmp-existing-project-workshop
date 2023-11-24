@@ -1,5 +1,5 @@
 package com.example.newsreaderkmp.domain
 
-expect object DateFormatter {
+internal expect object DateFormatter {
     fun getStringTime(timeInMillis: Long): String
 }

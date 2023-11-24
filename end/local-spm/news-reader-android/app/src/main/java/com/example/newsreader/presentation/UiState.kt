@@ -2,7 +2,7 @@ package com.example.newsreader.presentation
 
 import com.example.newsreaderkmp.domain.News
 
-sealed class UiState {
+internal sealed class UiState {
     data object Loading: UiState()
 
     data class Success(val newsList: List<News>): UiState()

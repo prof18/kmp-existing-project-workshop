@@ -13,7 +13,7 @@ class DateFormatterUtil {
         let formatter = DateFormatter()
         formatter.dateFormat = "d MMM yyyy"
         formatter.locale = Locale.current
-        return formatter.string(from: Date(timeIntervalSince1970: TimeInterval(timeInMillis) / 1000))
+        return formatter.string(from: Date(timeIntervalSince1970: TimeInterval(timeInMillis)))
     }
 }
 

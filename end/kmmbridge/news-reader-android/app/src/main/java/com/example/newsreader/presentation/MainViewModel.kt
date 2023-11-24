@@ -18,9 +18,15 @@ internal class MainViewModel(
 
     init {
         viewModelScope.launch {
-            val newsList = newsRepository.fetchNews()
-            mutableUiState.update {
-                UiState.Success(newsList)
+            try {
+                val newsList = newsRepository.fetchNews()
+                mutableUiState.update {
+                    UiState.Success(newsList)
+                }
+            } catch (e: Exception) {
+                mutableUiState.update {
+                    UiState.Error(message = "Something went wrong")
+                }
             }
         }
     }
