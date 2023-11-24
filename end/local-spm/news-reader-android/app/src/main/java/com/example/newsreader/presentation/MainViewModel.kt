@@ -1,0 +1,27 @@
+package com.example.newsreader.presentation
+
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
+import com.example.newsreaderkmp.domain.NewsRepository
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.update
+import kotlinx.coroutines.launch
+
+internal class MainViewModel(
+    private val newsRepository: NewsRepository = NewsRepository()
+) : ViewModel() {
+
+    private val mutableUiState = MutableStateFlow<UiState>(UiState.Loading)
+    val uiState: StateFlow<UiState> = mutableUiState.asStateFlow()
+
+    init {
+        viewModelScope.launch {
+            val newsList = newsRepository.fetchNews()
+            mutableUiState.update {
+                UiState.Success(newsList)
+            }
+        }
+    }
+}
