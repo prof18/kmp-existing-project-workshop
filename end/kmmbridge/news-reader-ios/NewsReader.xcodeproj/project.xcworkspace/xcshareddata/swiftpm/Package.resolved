@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/prof18/news-reader-kmp-kmmbridge",
       "state" : {
-        "revision" : "bc187c6c7aba8cdcdcc7da7d9ac5d8cc73bd1e67",
-        "version" : "0.0.2"
+        "revision" : "738498b9e50f79c0552225cd67289f9bcf2630c2",
+        "version" : "0.0.1"
       }
     }
   ],

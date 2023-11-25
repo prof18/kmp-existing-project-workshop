@@ -33,7 +33,7 @@ class NewsRepository {
     func mapToNews(dto: NewsDTO) -> News {
         return News(
             title: dto.title,
-            formattedDate: DateFormatterUtil.getStringTime(timeInMillis: dto.time),
+            formattedDate: DateFormatterUtil.getStringTime(timeInSeconds: dto.time),
             url: dto.url
         )
     }

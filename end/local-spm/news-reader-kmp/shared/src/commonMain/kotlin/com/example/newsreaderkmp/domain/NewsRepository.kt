@@ -21,7 +21,7 @@ class NewsRepository {
     private fun NewsDTO.mapToNews(): News =
         News(
             title = title,
-            formattedDate = DateFormatter.getStringTime(timeInMillis = time),
+            formattedDate = DateFormatter.getStringTime(timeInSeconds = time),
             url = url,
         )
 }

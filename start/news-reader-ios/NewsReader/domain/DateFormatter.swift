@@ -9,11 +9,11 @@ import Foundation
 
 
 class DateFormatterUtil {
-    static func getStringTime(timeInMillis: Int64) -> String {
+    static func getStringTime(timeInSeconds: Int64) -> String {
         let formatter = DateFormatter()
         formatter.dateFormat = "d MMM yyyy"
         formatter.locale = Locale.current
-        return formatter.string(from: Date(timeIntervalSince1970: TimeInterval(timeInMillis)))
+        return formatter.string(from: Date(timeIntervalSince1970: TimeInterval(timeInSeconds)))
     }
 }
 

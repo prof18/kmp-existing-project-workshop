@@ -5,8 +5,8 @@ import java.util.Date
 import java.util.Locale
 
 internal object DateFormatter {
-    fun getStringTime(timeInMillis: Long): String {
+    fun getStringTime(timeInSeconds: Long): String {
         val formatter = SimpleDateFormat("d MMM yyyy", Locale.getDefault())
-        return formatter.format(Date(timeInMillis * 1000))
+        return formatter.format(Date(timeInSeconds * 1000))
     }
 }
