@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "news-reader-kmp-framework",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/prof18/news-reader-kmp-framework",
+      "state" : {
+        "revision" : "fd2575b1d97f01e025b5a388a2aff7bf56dfe4eb",
+        "version" : "0.0.1"
+      }
+    }
+  ],
+  "version" : 2
+}
