@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "newsreaderkmp",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/prof18/NewsReaderKMP",
+      "state" : {
+        "revision" : "3e2488e2c800c61eefa91e849e42b16ee01516ab",
+        "version" : "0.1.0"
+      }
+    }
+  ],
+  "version" : 2
+}
