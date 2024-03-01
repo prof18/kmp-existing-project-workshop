@@ -1,0 +1,3 @@
+[submodule "end/kmmbridge/NewsReaderKMP"]
+	path = end/kmmbridge/NewsReaderKMP
+	url = https://github.com/prof18/NewsReaderKMP
