@@ -22,7 +22,7 @@ dependencyResolutionManagement {
             url = uri("https://maven.pkg.github.com/prof18/NewsReaderKMP")
             credentials {
                 username = providers.environmentVariable("GITHUB_USER").get()
-                password = providers.environmentVariable("GITHUB_TOKEN_CI").get()
+                password = providers.environmentVariable("GITHUB_TOKEN").get()
             }
         }
     }

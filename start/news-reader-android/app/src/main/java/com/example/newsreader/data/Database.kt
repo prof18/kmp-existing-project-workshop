@@ -1,8 +1,5 @@
 package com.example.newsreader.data
 
-import org.intellij.lang.annotations.Language
-
-@Language("JSON")
 internal val newsJson = """
     [
       {
