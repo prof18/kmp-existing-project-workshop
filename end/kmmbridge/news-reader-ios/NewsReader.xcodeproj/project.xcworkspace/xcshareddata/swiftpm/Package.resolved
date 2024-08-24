@@ -1,14 +1,15 @@
 {
+  "originHash" : "66dfe8899ff4390a23d4df928e476b40a01a9b9edec06f23d9c4f9b5b76757c1",
   "pins" : [
     {
       "identity" : "newsreaderkmp",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/prof18/NewsReaderKMP",
       "state" : {
-        "revision" : "3e2488e2c800c61eefa91e849e42b16ee01516ab",
-        "version" : "0.1.0"
+        "revision" : "0a46df3075eb5f3365562cbebfe2ebc15947330b",
+        "version" : "0.1.1"
       }
     }
   ],
-  "version" : 2
+  "version" : 3
 }
