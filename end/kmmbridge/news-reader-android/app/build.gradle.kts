@@ -62,7 +62,7 @@ dependencies {
     implementation(libs.kotlinx.coroutines.core)
     implementation(libs.kotlinx.coroutines.android)
 
-    implementation("com.example.newsreaderkmp:shared:0.1.1")
+    implementation("com.example.newsreaderkmp:shared:0.2.0")
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

@@ -642,7 +642,7 @@
 			repositoryURL = "https://github.com/prof18/NewsReaderKMP";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 0.1.1;
+				minimumVersion = 0.2.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
