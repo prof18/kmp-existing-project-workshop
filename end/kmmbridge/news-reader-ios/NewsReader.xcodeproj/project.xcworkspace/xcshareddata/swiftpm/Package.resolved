@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/prof18/NewsReaderKMP",
       "state" : {
-        "revision" : "9d4399ade7b4b2c9376ac99b462bcc26841b4a49",
-        "version" : "0.2.0"
+        "revision" : "32f8444047105e7d6688d25182336ed1a5bd1edd",
+        "version" : "0.0.1"
       }
     }
   ],

@@ -16,7 +16,7 @@
 		131D38D92B0F455A007A926B /* NewsReaderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131D38D82B0F455A007A926B /* NewsReaderUITestsLaunchTests.swift */; };
 		131D38F32B0F6230007A926B /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131D38F22B0F6230007A926B /* MainViewModel.swift */; };
 		131D38F52B0F6248007A926B /* UiState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131D38F42B0F6248007A926B /* UiState.swift */; };
-		133352CD2C7A11D300337127 /* NewsReaderKMP in Frameworks */ = {isa = PBXBuildFile; productRef = 133352CC2C7A11D300337127 /* NewsReaderKMP */; };
+		1380936B2C825D0F00E904FF /* NewsReaderKMP in Frameworks */ = {isa = PBXBuildFile; productRef = 1380936A2C825D0F00E904FF /* NewsReaderKMP */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,7 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				133352CD2C7A11D300337127 /* NewsReaderKMP in Frameworks */,
+				1380936B2C825D0F00E904FF /* NewsReaderKMP in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,7 +162,7 @@
 			);
 			name = NewsReader;
 			packageProductDependencies = (
-				133352CC2C7A11D300337127 /* NewsReaderKMP */,
+				1380936A2C825D0F00E904FF /* NewsReaderKMP */,
 			);
 			productName = NewsReader;
 			productReference = 131D38B72B0F4559007A926B /* NewsReader.app */;
@@ -237,7 +237,7 @@
 			);
 			mainGroup = 131D38AE2B0F4559007A926B;
 			packageReferences = (
-				133352CB2C7A11D300337127 /* XCRemoteSwiftPackageReference "NewsReaderKMP" */,
+				138093692C825D0F00E904FF /* XCRemoteSwiftPackageReference "NewsReaderKMP" */,
 			);
 			productRefGroup = 131D38B82B0F4559007A926B /* Products */;
 			projectDirPath = "";
@@ -637,20 +637,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		133352CB2C7A11D300337127 /* XCRemoteSwiftPackageReference "NewsReaderKMP" */ = {
+		138093692C825D0F00E904FF /* XCRemoteSwiftPackageReference "NewsReaderKMP" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/prof18/NewsReaderKMP";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 0.2.0;
+				minimumVersion = 0.0.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		133352CC2C7A11D300337127 /* NewsReaderKMP */ = {
+		1380936A2C825D0F00E904FF /* NewsReaderKMP */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 133352CB2C7A11D300337127 /* XCRemoteSwiftPackageReference "NewsReaderKMP" */;
+			package = 138093692C825D0F00E904FF /* XCRemoteSwiftPackageReference "NewsReaderKMP" */;
 			productName = NewsReaderKMP;
 		};
 /* End XCSwiftPackageProductDependency section */
